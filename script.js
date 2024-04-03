@@ -133,4 +133,4 @@ body{
 
 @media(max-width:320px){
   .user_input input{width: 60%;}
-}
+  }
