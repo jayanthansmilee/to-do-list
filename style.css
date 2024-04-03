@@ -22,14 +22,14 @@ document.querySelector("#input").addEventListener("keydown", (event) => {
     text.textContent = input;
   
     checkIcon.className = "fas fa-check-square";
-    checkIcon.style.color = "lightgray";
+    checkIcon.style.color = "gray";
     checkIcon.addEventListener("click", () => {
-      checkIcon.style.color = "limegreen";
+      checkIcon.style.color = "green";
     })
     div.appendChild(checkIcon);
   
     trashIcon.className = "fas fa-trash";
-    trashIcon.style.color = "darkgray";
+    trashIcon.style.color = "gray";
     trashIcon.addEventListener("click", () => {
       item.remove();
     })
